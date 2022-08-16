@@ -9,6 +9,18 @@ Propeller analysis in MATLAB, for a semester project in the course TMA4220 - Nav
 4. Convergence test for J=0.5 for different sections N
 5. Cavitation test
 
+## How to use
+
+By opening the main.m file and editing the variables listed in line 3, as shown below, on can change different parameters as well as the chosen task
+![how-to-use](https://user-images.githubusercontent.com/78209756/184908819-378c7e48-8ff9-4cf3-9c77-58fdd2d22db0.PNG)
+
+The variables that can be changed are:
+- N: number of sections
+- task: which task to solve
+- N_vec: Number of sections you want to run the convergence test for, reccomended values are N_vec = [6:6:36]
+- J_inp: Which J to run convergence or cavitation test for must be one of these values: [0.5 0.6 0.7 0.8 0.9 1.0 1.1]. However, J=0.5 is recommended
+- show_plots: set to true to show plots, and false to hide them
+
 
 
 ## Task 1: Propeller characteristics with no induced velocities
