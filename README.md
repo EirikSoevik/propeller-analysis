@@ -7,7 +7,9 @@ Propeller analysis in MATLAB, for a semester project in the course TMA4220 - Nav
    velocities, using complete momentum theory
 3. Propeller characteristics using lifting line theory
 4. Convergence test for J=0.5 for different sections N
-5. Cavitation test
+5. Cavitation test*
+
+*Note: missing "cpny/cp(i).txt" text files, which are outputs from xFoil. Without these, task 5 cannot execture. 
 
 ## How to use
 
